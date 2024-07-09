@@ -16,7 +16,7 @@ const Hero = () => {
   return (
       <section
           id="home"
-          className="h-screen relative flex flex-wrap justify-center items-center gap-20"
+          className="h-full sm:h-screen relative flex flex-wrap justify-center items-center gap-20"
       >
           <div
               className="absolute inset-0 bg-center bg-cover transform rotate-180"
@@ -25,7 +25,7 @@ const Hero = () => {
           <div className="flex items-center justify-center max-w-sm sm:px-0 px-12 pt-20 z-[800]">
               <img src={hero} alt="" className="object-cover" />
           </div>
-          <div className="flex flex-col justify-center items-center max-w-lg text-center sm:mt-12 -mt-20 z-[800]">
+          <div className="flex flex-col justify-center items-center max-w-lg text-center sm:mt-12 py-4 -mt-20 z-[800]">
               <h1 className="md:text-5xl text-2xl md:leading-normal leading-10 text-white font-bold">
                 <span className="text-green-400">
                   Hello Welcome!
