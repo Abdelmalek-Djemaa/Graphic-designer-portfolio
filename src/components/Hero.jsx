@@ -23,7 +23,7 @@ const Hero = () => {
               style={{ backgroundImage: `url(${bg})` }}
           />
           <img src={hero} alt="" className="object-cover max-w-sm w-full z-[800] pt-8" />
-          <div className="flex flex-col justify-center items-center max-w-lg text-center z-[800]">
+          <div className="flex flex-col justify-center items-center max-w-lg text-center z-[800] pb-12">
               <h1 className="md:text-5xl text-2xl md:leading-normal leading-10 text-white font-bold">
                 <span className="text-green-400">
                   Hello Welcome!
