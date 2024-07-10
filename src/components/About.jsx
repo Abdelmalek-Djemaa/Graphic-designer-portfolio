@@ -21,10 +21,7 @@ const About = () => {
             Graphic Designer
           </h4>
           <p className="text-center mt-4 leading-7 w-11/12 mx-auto">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-            eos, quam vel quisquam, explicabo sit labore dignissimos optio
-            ratione quibusdam doloribus pariatur consequuntur sint.
-            Reprehenderit cupiditate possimus facere quasi voluptatem?
+            Hello! I'm Fergani abdelazize, a graphic designer from Algeria. I specialize in creating captivating designs that blend creativity with technical excellence. Let's collaborate to bring your ideas to life through thoughtful and impactful design solutions.
           </p>
           <div className="flex mt-6 items-center gap-7">
             {info.map((content) => (
