@@ -8,10 +8,23 @@ const Hero = () => {
         window.location.href = '/Abdelazize_fergani_cv.pdf';
     };
   const social_media = [
-    <FaInstagram/>,
-    <FaFacebook/>,
-    <FaLinkedin/>,
-    <FaSquareBehance />,
+      {
+          icon:<FaInstagram/>,
+          link:"https://www.instagram.com/abdelaziz_fergani/"
+      },
+      {
+          icon:<FaFacebook/>,
+          link:"https://web.facebook.com/profile.php?id=100094083653905"
+      },
+      {
+          icon:<FaLinkedin/>,
+          link:"https://www.linkedin.com/in/fergani-abdelaziz-421401282/"
+
+      },
+      {
+          icon:<FaSquareBehance/>,
+          link:"https://www.behance.net/ferganiabdelaziz"
+      },
   ];
   return (
       <section
@@ -37,12 +50,12 @@ const Hero = () => {
               <br/>
               <button className="btn-primary cursor-pointer z-[800] hover:scale-105 duration-200" onClick={handleDownload}><FaDownload />Download CV</button>
               <div className="mt-6 text-3xl flex items-center justify-center gap-5 z-[800]">
-                {social_media?.map((icon,index) => (
+                {social_media?.map((item,index) => (
                   <div
                     key={index}
                     className="text-white hover:text-green-400 hover:scale-105 cursor-pointer duration-200 "
                   >
-                      {icon}
+                      <a href={item.link}>{item.icon}</a>
                   </div>
                 ))}
               </div>
