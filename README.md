@@ -1,6 +1,6 @@
 # Graphic Designer Portfolio
 
-![Demo Image1](https://github.com/Abdelmalek-Djemaa/graphic-designer-portfolio/blob/71338e3be748ce3b1f5bb173f51a32e6ea3923fc/src/assets/01.png)
+![Demo Image1](https://github.com/Abdelmalek-Djemaa/graphic-designer-portfolio/blob/eaa9b286f08f7e732df60e8e3fbdb9644556bace/src/assets/01.png)
 
 
 ## About
