@@ -1,5 +1,8 @@
 # Graphic Designer Portfolio
 
+![Demo Image1](https://github.com/Abdelmalek-Djemaa/graphic-designer-portfolio/blob/eaa9b286f08f7e732df60e8e3fbdb9644556bace/src/assets/01.png)
+
+
 ## About
 
 A sleek and modern portfolio built with React.js and Vite, styled with Tailwind CSS. This project showcases my creative works, from branding to digital illustrations, in a fast and responsive interface.
