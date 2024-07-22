@@ -48,7 +48,7 @@ const Navbar = () => {
                       {menu.name}
                     </a>
                     {activeLink === menu.link && (
-                        <span className="absolute -bottom-2 left-0 w-full h-1 bg-green-400"></span>
+                        <span className="absolute -bottom-3 left-0 w-full h-1 bg-green-400"></span>
                     )}
                   </li>
               ))}
